@@ -46,5 +46,8 @@
   * https://github.com/lambdaclass/circom_export_to_cairo
 * Placeholder
     * https://github.com/NilFoundation/cairo-placeholder-verification
-
+* stark
+    * https://github.com/HerodotusDev/cairo-verifier
+* snark(Pairing)
+   * https://github.com/keep-starknet-strange/garaga Including Groth16 and protostar's test demos.
 
