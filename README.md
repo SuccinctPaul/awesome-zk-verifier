@@ -13,6 +13,7 @@
   * https://github.com/maxgillett/halo2-fri-gadget
   * https://github.com/shuklaayush/halo2-plonky2-verifier
   * https://github.com/DoHoonKim8/stark-verifier
+    * https://github.com/qope/another-circuit
 
 
 
