@@ -11,7 +11,8 @@
   * https://github.com/succinctlabs/gnark-plonky2-verifier
   * https://github.com/polymerdao/plonky2-circom
   * https://github.com/maxgillett/halo2-fri-gadget
-  * https://github.com/shuklaayush/halo2-plonky2-verifier 
+  * https://github.com/shuklaayush/halo2-plonky2-verifier
+  * https://github.com/DoHoonKim8/stark-verifier
 
 
 
