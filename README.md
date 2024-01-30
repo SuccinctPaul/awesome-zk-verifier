@@ -57,6 +57,9 @@
 * Placeholder
     * https://github.com/NilFoundation/cairo-placeholder-verification
 
+### Solona: Verify zkp proof in Solona Contract
+* Groth16
+  * https://github.com/zkLinkProtocol/groth16-sol-verifier
 
 ### Move: Verify zkp proof in Move Contract
 * halo2
