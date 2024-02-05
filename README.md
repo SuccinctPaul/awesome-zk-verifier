@@ -14,7 +14,8 @@
   * https://github.com/shuklaayush/halo2-plonky2-verifier
   * https://github.com/DoHoonKim8/stark-verifier
     * https://github.com/qope/another-circuit
-
+* Verifier Boojum proof:
+  * https://github.com/matter-labs/snark-wrapper
 
 
 ## Contract  Verifier
@@ -57,6 +58,10 @@
 * Placeholder
     * https://github.com/NilFoundation/cairo-placeholder-verification
 
+### Solona: Verify zkp proof in Solona Contract
+* Groth16
+  * https://github.com/zkLinkProtocol/groth16-sol-verifier
+  * https://github.com/gnosed/solana_groth16_verifier
 
 ### Move: Verify zkp proof in Move Contract
 * halo2
