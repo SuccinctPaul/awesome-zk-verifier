@@ -61,6 +61,7 @@
 ### Solona: Verify zkp proof in Solona Contract
 * Groth16
   * https://github.com/zkLinkProtocol/groth16-sol-verifier
+  * https://github.com/gnosed/solana_groth16_verifier
 
 ### Move: Verify zkp proof in Move Contract
 * halo2
