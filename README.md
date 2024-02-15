@@ -4,6 +4,8 @@
 ## Circuit Verifier
 > Verify proof by zk prover circuit. Aka. aggregation prove.
 
+* Verifier groth16 proof:
+  * https://github.com/xycloo/wasm-groth16-verifier
 * Verify halo2(snark?) proof:
   * https://github.com/privacy-scaling-explorations/snark-verifier
       
