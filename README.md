@@ -16,8 +16,12 @@
   * https://github.com/shuklaayush/halo2-plonky2-verifier
   * https://github.com/DoHoonKim8/stark-verifier
     * https://github.com/qope/another-circuit
+      
 * Verifier Boojum proof:
   * https://github.com/matter-labs/snark-wrapper
+
+* Verifier plonky3 proof:
+  * https://github.com/taikoxyz/gnark-plonky3-verifier
 
 
 ## Contract  Verifier
@@ -41,7 +45,8 @@
 
 * Nova
   * https://github.com/lurk-lab/solidity-verifier
-
+  * https://github.com/privacy-scaling-explorations/folding-schemes
+    
 * Mina
   * https://github.com/NilFoundation/mina-state-proof
     
