@@ -27,6 +27,11 @@
 ## Contract  Verifier
 > Verify proof by onchain contract.
 
+### bitvm: Verify zkp proof in bitvm
+
+* Groth16
+  * https://github.com/chainwayxyz/bitvm-zk-verifier
+ 
 ### Solidity: Verify zkp proof in Solidity Contract
 * Groth16
   * https://github.com/recmo/evm-groth16
