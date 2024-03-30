@@ -14,6 +14,7 @@
   * https://github.com/polymerdao/plonky2-circom
   * https://github.com/maxgillett/halo2-fri-gadget
   * https://github.com/shuklaayush/halo2-plonky2-verifier
+  * https://github.com/Omniverse-Web3-Labs/fri-kzg-verifier
   * https://github.com/DoHoonKim8/stark-verifier
     * https://github.com/qope/another-circuit
       
