@@ -22,6 +22,7 @@
   * https://github.com/matter-labs/snark-wrapper
 
 * Verifier plonky3 proof:
+  * https://github.com/succinctlabs/sp1/tree/main/recursion/groth16
   * https://github.com/taikoxyz/gnark-plonky3-verifier
 
 
