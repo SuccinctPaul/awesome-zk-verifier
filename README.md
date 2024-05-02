@@ -14,15 +14,26 @@
   * https://github.com/polymerdao/plonky2-circom
   * https://github.com/maxgillett/halo2-fri-gadget
   * https://github.com/shuklaayush/halo2-plonky2-verifier
+  * https://github.com/Omniverse-Web3-Labs/fri-kzg-verifier
   * https://github.com/DoHoonKim8/stark-verifier
     * https://github.com/qope/another-circuit
+      
 * Verifier Boojum proof:
   * https://github.com/matter-labs/snark-wrapper
+
+* Verifier plonky3 proof:
+  * https://github.com/succinctlabs/sp1/tree/main/recursion/groth16
+  * https://github.com/taikoxyz/gnark-plonky3-verifier
 
 
 ## Contract  Verifier
 > Verify proof by onchain contract.
 
+### bitvm: Verify zkp proof in bitvm
+
+* Groth16
+  * https://github.com/chainwayxyz/bitvm-zk-verifier
+ 
 ### Solidity: Verify zkp proof in Solidity Contract
 * Groth16
   * https://github.com/recmo/evm-groth16
@@ -41,7 +52,8 @@
 
 * Nova
   * https://github.com/lurk-lab/solidity-verifier
-
+  * https://github.com/privacy-scaling-explorations/folding-schemes
+    
 * Mina
   * https://github.com/NilFoundation/mina-state-proof
     
@@ -66,6 +78,8 @@
   * https://github.com/gnosed/solana_groth16_verifier
 
 ### Move: Verify zkp proof in Move Contract
+* Groth16
+  * https://github.com/MystenLabs/sui/blob/main/sui_programmability/examples/crypto/sources/groth16.move
 * halo2
   * https://github.com/zkmove/halo2-verifier.move
 
