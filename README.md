@@ -77,6 +77,8 @@
   * https://github.com/gnosed/solana_groth16_verifier
 
 ### Move: Verify zkp proof in Move Contract
+* Groth16
+  * https://github.com/MystenLabs/sui/blob/main/sui_programmability/examples/crypto/sources/groth16.move
 * halo2
   * https://github.com/zkmove/halo2-verifier.move
 
