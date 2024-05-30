@@ -26,11 +26,25 @@
   * https://github.com/succinctlabs/sp1/tree/main/recursion/groth16
   * https://github.com/taikoxyz/gnark-plonky3-verifier
 
+
+* Verify zkvm by another one?
+  * https://github.com/jimzk/sp1-recursive
+
+
 ### Circuit Verifier by zkvm
 > As the raw verifier of a prover is a program(most of them writen in Rust), which can be proven by a zkvm. So that we can generate aggregationg proof by zkvm instead of writing a aggregation circuit.
 
+* Verify c-kzg proof:
+  * https://github.com/smtmfft/sp1-c-kzg
+    
+* Verify fflonk proof:
+  * https://github.com/RizeLabs/sp1-fflonk
+    
 * Verify plonky2 proof:
   * https://github.com/wborgeaud/sp1-plonky2
+    
+* Verify platinum proof:
+  * https://github.com/raphaelDkhn/sp1_recursion
 
 
 ## Contract  Verifier
@@ -66,7 +80,8 @@
     
 * Placeholder
   * https://github.com/NilFoundation/cairo-placeholder-verification
-
+* Sp1
+  * https://github.com/RizeLabs/sp1-verifier
 
 ### Cairo: Verify zkp proof in Cairo Contract
 * stark
