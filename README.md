@@ -29,7 +29,7 @@
 ## Contract  Verifier
 > Verify proof by onchain contract.
 
-### bitvm: Verify zkp proof in bitvm
+### bitcoin Script: Verify zkp proof in bitcoin Script
 
 * Groth16
   * https://github.com/zulu-network/bitvm-groth16-verifier
