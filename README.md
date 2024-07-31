@@ -23,7 +23,7 @@
   * https://github.com/matter-labs/snark-wrapper
 
 * Verify plonky3 proof:
-  * https://github.com/succinctlabs/sp1/tree/main/recursion/groth16
+  * https://github.com/succinctlabs/sp1/tree/main/recursion/gnark-ffi/go/sp1
   * https://github.com/QEDProtocol/plonky2.5
   * https://github.com/taikoxyz/gnark-plonky3-verifier
   
