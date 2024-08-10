@@ -5,6 +5,7 @@
 ## Contents
 
 - [Awesome zk verifier](#awesome-zk-verifier)
+  - [Verifier Layer](#verifier-layer)
   - [Circuit Verifier](#circuit-verifier)
     - [Groth16 Circuit Verifier](#Groth16-Circuit-Verifier)
     - [Halo2 Circuit Verifier](#Halo2-Circuit-Verifier)
@@ -23,6 +24,7 @@
       - [Circle Stark Bitcoin Script Verifier](#circle-stark-bitcoin-script-verifier)
     - [Solidity Verifier](#solidity-verifier)
       - [Groth16 Solidity Verifier](#groth16-solidity-verifier)
+      - [Fflonk Solidity Verifier](#fflonk-solidity-verifier)
       - [Plonk Solidity Verifier](#Plonk-solidity-verifier)
       - [Halo2 Solidity Verifier](#Halo2-solidity-verifier)
       - [Plonky2 Solidity Verifier](#Plonky2-solidity-verifier)
@@ -41,6 +43,15 @@
       - [Groth16 Move Verifier](#groth16-Move-verifier)
       - [Halo2 Move Verifier](#groth16-Halo2-verifier)
 
+## Verifier Layer
+### Aligened Layer
+* https://github.com/yetanotherco/aligned_layer
+### zkVerify
+* https://github.com/HorizenLabs/zkVerify
+### hyle
+* https://github.com/Hyle-org/hyle
+ 
+
 
 ## Circuit Verifier
 
@@ -48,6 +59,7 @@ Verify proof by zk prover circuit. Aka. aggregation prove.
 
 ### Groth16 Circuit Verifier
 * https://github.com/xycloo/wasm-groth16-verifier
+
 ### Halo2 Circuit Verifier:
 * https://github.com/privacy-scaling-explorations/snark-verifier
 
@@ -112,6 +124,17 @@ Verify zkp proof in Solidity Contract
 
 #### Groth16 Solidity Verifier
 * https://github.com/recmo/evm-groth16
+* https://github.com/matter-labs/era-contracts/blob/main/l1-contracts/contracts/state-transition/Verifier.sol
+  Rust Version:
+  * https://github.com/HorizenLabs/zksync-era-verifier
+  * https://github.com/vbhattaccmu/zksync-verifier
+  
+#### Fflonk Solidity Verifier
+* https://github.com/recmo/evm-groth16
+* https://github.com/0xPolygonHermez/zkevm-contracts/tree/main/contracts/verifiers
+  Rust Version:
+  * https://github.com/RizeLabs/sp1-fflonk
+  * https://github.com/HorizenLabs/fflonk_verifier
 
 #### Plonk Solidity Verifier
 * https://github.com/matter-labs/solidity_plonk_verifier
