@@ -16,7 +16,7 @@
       - [Fflonk zkVM Circuit Verifier](#Fflonk-zkVM-Circuit-Verifier)
       - [Plnoky2 zkVM Circuit Verifier](#Plnoky2-zkVM-Circuit-Verifier)
       - [Platinum zkVM Circuit Verifier](#platinum-zkvm-circuit-verifier)
-  -  [Contract Verifier](#Contract-Verifier)
+  - [Contract Verifier](#Contract-Verifier)
     - [Bitcoin Script Verifier](#bitcoin-script-verifier)
       - [Groth16 Bitcoin Script Verifier](#groth16-bitcoin-script-verifier)
       - [Fflonk Bitcoin Script Verifier](#Fflonk-bitcoin-script-verifier)
