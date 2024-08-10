@@ -51,10 +51,17 @@
 ## Contract  Verifier
 > Verify proof by onchain contract.
 
-### bitvm: Verify zkp proof in bitvm
+### bitcoin Script: Verify zkp proof in bitcoin Script
 
 * Groth16
+  * https://github.com/zulu-network/bitvm-groth16-verifier
   * https://github.com/chainwayxyz/bitvm-zk-verifier
+    
+* ffloink
+  * https://github.com/BitVM/BitVM/pull/69
+* circle stark(aka.stwo)
+  * https://github.com/Bitcoin-Wildlife-Sanctuary/bitcoin-circle-stark
+
  
 ### Solidity: Verify zkp proof in Solidity Contract
 * Groth16
