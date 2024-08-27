@@ -42,6 +42,10 @@
     - [Move Verifier](#move-verifier)
       - [Groth16 Move Verifier](#groth16-Move-verifier)
       - [Halo2 Move Verifier](#groth16-Halo2-verifier)
+  - [Other Verifiers](#other-verifiers)
+    - [Gnark Arkworks Verifier](#gnark-arkworks-verifier)
+    - [Groth16 Wasm Verifier](#groth16-wasm-verifier)
+    - [Fflonk Verifier](#fflonk-verifier)
 
 ## Verifier Layer
 ### Aligened Layer
@@ -50,21 +54,22 @@
 * https://github.com/HorizenLabs/zkVerify
 ### hyle
 * https://github.com/Hyle-org/hyle
- 
-
 
 ## Circuit Verifier
 
-Verify proof by zk prover circuit. Aka. aggregation prove.
+Verify zkp'sproof by (another) zk prover circuit. Aka. aggregation prove.
 
 ### Groth16 Circuit Verifier
-* https://github.com/xycloo/wasm-groth16-verifier
+* https://github.com/filecoin-project/bellperson/tree/master/src/groth16/aggregate
+* https://github.com/nikkolasg/snarkpack
+
 
 ### Halo2 Circuit Verifier:
 * https://github.com/privacy-scaling-explorations/snark-verifier
 
 ### Plonky2 Circuit Verifier
 * https://github.com/succinctlabs/gnark-plonky2-verifier
+* https://github.com/zkMIPS/gnark-plonky2-verifier
 * https://github.com/polymerdao/plonky2-circom
 * https://github.com/maxgillett/halo2-fri-gadget
 * https://github.com/shuklaayush/halo2-plonky2-verifier
@@ -84,6 +89,7 @@ Verify proof by zk prover circuit. Aka. aggregation prove.
 
 * Verify zkvm by another one?
 * https://github.com/jimzk/sp1-recursive
+* https://github.com/Bisht13/sp1-recursive-plonk
 
 
 ### zkVM Circuit Verifier
@@ -101,7 +107,6 @@ So that we can generate aggregationg proof by zkvm instead of writing a aggregat
     
 #### Platinum zkVM Circuit Verifier
 * https://github.com/raphaelDkhn/sp1_recursion
-
 
 ## Contract Verifier
 > Verify proof by onchain contract.
@@ -132,9 +137,6 @@ Verify zkp proof in Solidity Contract
 #### Fflonk Solidity Verifier
 * https://github.com/recmo/evm-groth16
 * https://github.com/0xPolygonHermez/zkevm-contracts/tree/main/contracts/verifiers
-  Rust Version:
-  * https://github.com/RizeLabs/sp1-fflonk
-  * https://github.com/HorizenLabs/fflonk_verifier
 
 #### Plonk Solidity Verifier
 * https://github.com/matter-labs/solidity_plonk_verifier
@@ -194,3 +196,20 @@ Verify zkp proof in Move Contract
 * https://github.com/zkmove/halo2-verifier.move
 
 
+
+
+## Other Verifiers
+Following contains verifier by other crypto implement.
+* eg: CryptoA's verified by cryptoB, aka `CryptoA CryptoB Verifier`
+
+### Gnark Arkworks Verifier
+* https://github.com/Bisht13/gnark-bn254-verifier
+* https://github.com/geometers/gnark-arkworks-verifier
+
+### Groth16 Wasm Verifier
+* https://github.com/xycloo/wasm-groth16-verifier
+
+### Fflonk Verifier
+* https://github.com/SuccinctPaul/ark-fflonk-verifier
+* https://github.com/RizeLabs/sp1-fflonk
+* https://github.com/HorizenLabs/fflonk_verifier
