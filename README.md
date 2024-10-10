@@ -28,7 +28,9 @@
       - [Plonk Solidity Verifier](#Plonk-solidity-verifier)
       - [Halo2 Solidity Verifier](#Halo2-solidity-verifier)
       - [Plonky2 Solidity Verifier](#Plonky2-solidity-verifier)
+      - [Marlin Solidity Verifier](#marlin-solidity-verifier)
       - [Nova Solidity Verifier](#Nova-solidity-verifier)
+      - [gm17 Solidity Verifier](#gm17-solidity-verifier)
       - [Mina Solidity Verifier](#Mina-solidity-verifier)
       - [Placeholder Solidity Verifier](#Placeholder-solidity-verifier)
       - [Sp1 Solidity Verifier](#Sp1-solidity-verifier)
@@ -42,10 +44,14 @@
     - [Move Verifier](#move-verifier)
       - [Groth16 Move Verifier](#groth16-Move-verifier)
       - [Halo2 Move Verifier](#groth16-Halo2-verifier)
+    - [Cosmwasm Verifier](#cosmwasm-verifier)
+      - [Groth16 Cosmwasm Verifier](#groth16-cosmwasm-verifier)
+      - [Plonk Cosmwasm Verifier](#plonk-cosmwasm-verifier)
   - [Other Verifiers](#other-verifiers)
     - [Gnark Arkworks Verifier](#gnark-arkworks-verifier)
     - [Groth16 Wasm Verifier](#groth16-wasm-verifier)
     - [Fflonk Verifier](#fflonk-verifier)
+    - [Snarkjs Verifier](#snarkjs-verifier)
 
 ## Verifier Layer
 ### Aligened Layer
@@ -129,11 +135,10 @@ Verify zkp proof in Solidity Contract
 
 #### Groth16 Solidity Verifier
 * https://github.com/recmo/evm-groth16
-* https://github.com/matter-labs/era-contracts/blob/main/l1-contracts/contracts/state-transition/Verifier.sol
-  Rust Version:
-  * https://github.com/HorizenLabs/zksync-era-verifier
-  * https://github.com/vbhattaccmu/zksync-verifier
-  
+* https://github.com/succinctlabs/sp1-contracts/blob/main/contracts/src/v3.0.0-rc1/Groth16Verifier.sol
+* https://github.com/circuitscan/snarkjs-groth16-multi-verifier/blob/main/test/contracts/semaphorev4-1.sol
+
+
 #### Fflonk Solidity Verifier
 * https://github.com/recmo/evm-groth16
 * https://github.com/0xPolygonHermez/zkevm-contracts/tree/main/contracts/verifiers
@@ -142,6 +147,11 @@ Verify zkp proof in Solidity Contract
 * https://github.com/matter-labs/solidity_plonk_verifier
 * https://github.com/DelphinusLab/delphinus-solidity
 * https://github.com/fluidex/solidity_recursive_plonk_verifier
+* https://github.com/matter-labs/era-contracts/blob/main/l1-contracts/contracts/state-transition/Verifier.sol
+  Rust Version:
+  * https://github.com/HorizenLabs/zksync-era-verifier
+* https://github.com/succinctlabs/sp1-contracts/blob/main/contracts/src/v3.0.0-rc1/PlonkVerifier.sol
+
 
 #### Halo2 Solidity Verifier
 * https://github.com/privacy-scaling-explorations/halo2-solidity-verifier
@@ -150,10 +160,18 @@ Verify zkp proof in Solidity Contract
 #### Plonky2 Solidity Verifier
 * https://github.com/polymerdao/plonky2-solidity-verifier
 
+#### Marlin Solidity Verifier
+* https://github.com/Zokrates/ZoKrates/blob/develop/zokrates_proof_systems/src/scheme/marlin.rs
+
 #### Nova Solidity Verifier
-* https://github.com/lurk-lab/solidity-verifier
+* https://github.com/argumentcomputer/solidity-verifier
 * https://github.com/privacy-scaling-explorations/folding-schemes
 
+#### gm17 Solidity Verifier
+* https://github.com/Zokrates/ZoKrates/blob/develop/zokrates_proof_systems/src/scheme/gm17.rs
+  * Rust 
+    * https://github.com/arkworks-rs/gm17
+    
 #### Mina Solidity Verifier
 * https://github.com/NilFoundation/mina-state-proof
 
@@ -196,6 +214,12 @@ Verify zkp proof in Move Contract
 * https://github.com/zkmove/halo2-verifier.move
 
 
+### Cosmwasm Verifier
+#### Groth16 Cosmwasm Verifier
+* https://github.com/DoraFactory/zk-cosmwasm/tree/main/cw-groth16
+
+#### Plonk Cosmwasm Verifier
+* https://github.com/DoraFactory/zk-cosmwasm/tree/main/cw-plonk
 
 
 ## Other Verifiers
@@ -213,3 +237,6 @@ Following contains verifier by other crypto implement.
 * https://github.com/SuccinctPaul/ark-fflonk-verifier
 * https://github.com/RizeLabs/sp1-fflonk
 * https://github.com/HorizenLabs/fflonk_verifier
+
+### Snarkjs Verifier
+* https://github.com/DoraFactory/snarkjs-bellman-adapter
