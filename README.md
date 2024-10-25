@@ -228,6 +228,8 @@ Following contains verifier by other crypto implement.
 * eg: CryptoA's verified by cryptoB, aka `CryptoA CryptoB Verifier`
 
 ### Gnark Arkworks Verifier
+* https://github.com/succinctlabs/snark-bn254-verifier
+  which not using ark-groth16.
 * https://github.com/Bisht13/gnark-bn254-verifier
 * https://github.com/geometers/gnark-arkworks-verifier
 
