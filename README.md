@@ -76,6 +76,7 @@ Verify zkp'sproof by (another) zk prover circuit. Aka. aggregation prove.
 ### Plonky2 Circuit Verifier
 * https://github.com/arnaucube/plonky2-recursion-experiment
 * https://github.com/succinctlabs/gnark-plonky2-verifier
+* https://github.com/Lagrange-Labs/mapreduce-plonky2/tree/main/gnark-utils
 * https://github.com/zkMIPS/gnark-plonky2-verifier
 * https://github.com/polymerdao/plonky2-circom
 * https://github.com/maxgillett/halo2-fri-gadget
