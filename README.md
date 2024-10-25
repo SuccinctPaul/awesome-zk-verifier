@@ -74,7 +74,9 @@ Verify zkp'sproof by (another) zk prover circuit. Aka. aggregation prove.
 * https://github.com/privacy-scaling-explorations/snark-verifier
 
 ### Plonky2 Circuit Verifier
+* https://github.com/arnaucube/plonky2-recursion-experiment
 * https://github.com/succinctlabs/gnark-plonky2-verifier
+* https://github.com/Lagrange-Labs/mapreduce-plonky2/tree/main/gnark-utils
 * https://github.com/zkMIPS/gnark-plonky2-verifier
 * https://github.com/polymerdao/plonky2-circom
 * https://github.com/maxgillett/halo2-fri-gadget
@@ -227,6 +229,8 @@ Following contains verifier by other crypto implement.
 * eg: CryptoA's verified by cryptoB, aka `CryptoA CryptoB Verifier`
 
 ### Gnark Arkworks Verifier
+* https://github.com/succinctlabs/snark-bn254-verifier
+  which not using ark-groth16.
 * https://github.com/Bisht13/gnark-bn254-verifier
 * https://github.com/geometers/gnark-arkworks-verifier
 
