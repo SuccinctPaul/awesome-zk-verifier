@@ -24,6 +24,7 @@
       - [Circle Stark Bitcoin Script Verifier](#circle-stark-bitcoin-script-verifier)
     - [Solidity Verifier](#solidity-verifier)
       - [Groth16 Solidity Verifier](#groth16-solidity-verifier)
+      - [whir Solidity Verifier](#whir-solidity-verifier)
       - [Fflonk Solidity Verifier](#fflonk-solidity-verifier)
       - [Plonk Solidity Verifier](#Plonk-solidity-verifier)
       - [Halo2 Solidity Verifier](#Halo2-solidity-verifier)
@@ -123,14 +124,15 @@ So that we can generate aggregationg proof by zkvm instead of writing a aggregat
 Verify zkp proof in bitcoin Script
 
 #### Groth16 Bitcoin Script Verifier
-* https://github.com/zulu-network/bitvm-groth16-verifier
 * https://github.com/chainwayxyz/bitvm-zk-verifier
-    
+* https://github.com/FairgateLabs/rust-bitvmx-zk-proof
+
 #### Fflonk Bitcoin Script Verifier
 * https://github.com/BitVM/BitVM/pull/69
 
 #### Circle Stark Bitcoin Script Verifier
 * https://github.com/Bitcoin-Wildlife-Sanctuary/bitcoin-circle-stark
+* https://github.com/bitlayer-org/tap-stark
 
 ### Solidity Verifier
 Verify zkp proof in Solidity Contract
@@ -140,6 +142,8 @@ Verify zkp proof in Solidity Contract
 * https://github.com/succinctlabs/sp1-contracts/blob/main/contracts/src/v3.0.0-rc1/Groth16Verifier.sol
 * https://github.com/circuitscan/snarkjs-groth16-multi-verifier/blob/main/test/contracts/semaphorev4-1.sol
 
+#### whir Solidity Verifier
+* https://github.com/privacy-scaling-explorations/sol-whir
 
 #### Fflonk Solidity Verifier
 * https://github.com/recmo/evm-groth16
