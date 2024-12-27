@@ -10,8 +10,9 @@
     - [Groth16 Circuit Verifier](#Groth16-Circuit-Verifier)
     - [Halo2 Circuit Verifier](#Halo2-Circuit-Verifier)
     - [Plonky2 Circuit Verifier](#Plonky2-Circuit-Verifier)
-    - [Boojum Circuit Verifier](#Boojum-Circuit-Verifier)
     - [Plonky3 Circuit Verifier](#Plonky3-Circuit-Verifier)
+    - [Boojum Circuit Verifier](#Boojum-Circuit-Verifier)
+    - [Winterfell Circuit Verifier](#winterfell-circuit-verifier)
     - [zkVM Circuit Verifier](#zkVM-Circuit-Verifier)
       - [KZG zkVM Circuit Verifier](#KZG-zkVM-Circuit-Verifier)
       - [Fflonk zkVM Circuit Verifier](#Fflonk-zkVM-Circuit-Verifier)
@@ -67,8 +68,9 @@
 Verify zkp'sproof by (another) zk prover circuit. Aka. aggregation prove.
 
 ### Groth16 Circuit Verifier
-* https://github.com/filecoin-project/bellperson/tree/master/src/groth16/aggregate
-* https://github.com/nikkolasg/snarkpack
+* By snarkpack
+  * https://github.com/filecoin-project/bellperson/tree/master/src/groth16/aggregate
+  * https://github.com/nikkolasg/snarkpack
 
 
 ### Halo2 Circuit Verifier:
@@ -76,29 +78,33 @@ Verify zkp'sproof by (another) zk prover circuit. Aka. aggregation prove.
 
 ### Plonky2 Circuit Verifier
 * https://github.com/arnaucube/plonky2-recursion-experiment
-* https://github.com/succinctlabs/gnark-plonky2-verifier
-* https://github.com/Lagrange-Labs/mapreduce-plonky2/tree/main/gnark-utils
-* https://github.com/zkMIPS/gnark-plonky2-verifier
-* https://github.com/polymerdao/plonky2-circom
-* https://github.com/maxgillett/halo2-fri-gadget
-* https://github.com/shuklaayush/halo2-plonky2-verifier
-* https://github.com/Omniverse-Web3-Labs/fri-kzg-verifier
-* https://github.com/DoHoonKim8/stark-verifier
+* By gnark
+  * https://github.com/succinctlabs/gnark-plonky2-verifier
+  * https://github.com/Lagrange-Labs/mapreduce-plonky2/tree/main/gnark-utils
+  * https://github.com/zkMIPS/gnark-plonky2-verifier
+  * https://github.com/cf/gnark-plonky2-verifier/blob/c59e33fd8f1b407b355d7b9a74e34792e7c78f37/prover/src/lib.rs#L24-L40
+* By circom
+  * https://github.com/polymerdao/plonky2-circom
+* By halo2
+  * https://github.com/maxgillett/halo2-fri-gadget
+  * https://github.com/shuklaayush/halo2-plonky2-verifier
+  * https://github.com/Omniverse-Web3-Labs/fri-kzg-verifier
+  * https://github.com/DoHoonKim8/stark-verifier
   * https://github.com/qope/another-circuit
-* https://github.com/cf/gnark-plonky2-verifier/blob/c59e33fd8f1b407b355d7b9a74e34792e7c78f37/prover/src/lib.rs#L24-L40
+
+### Plonky3 Circuit Verifier
+* By gnark
+  * https://github.com/succinctlabs/sp1/tree/main/recursion/gnark-ffi/go/sp1
+* By plonky2
+  * https://github.com/QEDProtocol/plonky2.5
+
 
 ### Boojum Circuit Verifier
 * https://github.com/matter-labs/snark-wrapper
 
-### Plonky3 Circuit Verifier
-* https://github.com/succinctlabs/sp1/tree/main/recursion/gnark-ffi/go/sp1
-* https://github.com/QEDProtocol/plonky2.5
-* https://github.com/taikoxyz/gnark-plonky3-verifier
-  
-
-* Verify zkvm by another one?
-* https://github.com/jimzk/sp1-recursive
-* https://github.com/Bisht13/sp1-recursive-plonk
+### Winterfell Circuit Verifier
+* By circom
+  * https://github.com/VictorColomb/stark-snark-recursive-proofs
 
 
 ### zkVM Circuit Verifier
@@ -127,9 +133,6 @@ Verify zkp proof in bitcoin Script
 * https://github.com/chainwayxyz/bitvm-zk-verifier
 * https://github.com/FairgateLabs/rust-bitvmx-zk-proof
 
-#### Fflonk Bitcoin Script Verifier
-* https://github.com/BitVM/BitVM/pull/69
-
 #### Circle Stark Bitcoin Script Verifier
 * https://github.com/Bitcoin-Wildlife-Sanctuary/bitcoin-circle-stark
 * https://github.com/bitlayer-org/tap-stark
@@ -157,7 +160,6 @@ Verify zkp proof in Solidity Contract
   Rust Version:
   * https://github.com/HorizenLabs/zksync-era-verifier
 * https://github.com/succinctlabs/sp1-contracts/blob/main/contracts/src/v3.0.0-rc1/PlonkVerifier.sol
-
 
 #### Halo2 Solidity Verifier
 * https://github.com/privacy-scaling-explorations/halo2-solidity-verifier
