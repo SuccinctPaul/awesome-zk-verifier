@@ -31,41 +31,13 @@ Inculding: onchain zk proof verifier, recursive zk proof verifier etc.
     - [Boojum Circuit Verifier](#Boojum-Circuit-Verifier)
     - [Winterfell Circuit Verifier](#winterfell-circuit-verifier)
     - [zkVM Circuit Verifier](#zkVM-Circuit-Verifier)
-      - [KZG zkVM Circuit Verifier](#KZG-zkVM-Circuit-Verifier)
-      - [Fflonk zkVM Circuit Verifier](#Fflonk-zkVM-Circuit-Verifier)
-      - [Plnoky2 zkVM Circuit Verifier](#Plnoky2-zkVM-Circuit-Verifier)
-      - [Platinum zkVM Circuit Verifier](#platinum-zkvm-circuit-verifier)
   - [Contract Verifier](#Contract-Verifier)
     - [Bitcoin Script Verifier](#bitcoin-script-verifier)
-      - [Groth16 Bitcoin Script Verifier](#groth16-bitcoin-script-verifier)
-      - [Fflonk Bitcoin Script Verifier](#Fflonk-bitcoin-script-verifier)
-      - [Circle Stark Bitcoin Script Verifier](#circle-stark-bitcoin-script-verifier)
     - [Solidity Verifier](#solidity-verifier)
-      - [Groth16 Solidity Verifier](#groth16-solidity-verifier)
-      - [whir Solidity Verifier](#whir-solidity-verifier)
-      - [Fflonk Solidity Verifier](#fflonk-solidity-verifier)
-      - [Plonk Solidity Verifier](#Plonk-solidity-verifier)
-      - [Halo2 Solidity Verifier](#Halo2-solidity-verifier)
-      - [Plonky2 Solidity Verifier](#Plonky2-solidity-verifier)
-      - [Marlin Solidity Verifier](#marlin-solidity-verifier)
-      - [Nova Solidity Verifier](#Nova-solidity-verifier)
-      - [gm17 Solidity Verifier](#gm17-solidity-verifier)
-      - [Mina Solidity Verifier](#Mina-solidity-verifier)
-      - [Placeholder Solidity Verifier](#Placeholder-solidity-verifier)
-      - [Sp1 Solidity Verifier](#Sp1-solidity-verifier)
     - [Cairo Verifier](#cairo-verifier)
-      - [Stark Cairo Verifier](#Stark-Cairo-verifier)
-      - [Snark Cairo Verifier](#Snark-Cairo-verifier)
-      - [Circom Cairo Verifier](#Circom-Cairo-verifier)
-      - [Placeholder Cairo Verifier](#Placeholder-Cairo-verifier)
     - [Solona Verifier](#solona-verifier)
-      - [Groth16 Solona Verifier](#groth16-Solona-verifier)
     - [Move Verifier](#move-verifier)
-      - [Groth16 Move Verifier](#groth16-Move-verifier)
-      - [Halo2 Move Verifier](#groth16-Halo2-verifier)
     - [Cosmwasm Verifier](#cosmwasm-verifier)
-      - [Groth16 Cosmwasm Verifier](#groth16-cosmwasm-verifier)
-      - [Plonk Cosmwasm Verifier](#plonk-cosmwasm-verifier)
   - [Other Verifiers](#other-verifiers)
     - [Gnark Arkworks Verifier](#gnark-arkworks-verifier)
     - [Groth16 Wasm Verifier](#groth16-wasm-verifier)
@@ -74,7 +46,7 @@ Inculding: onchain zk proof verifier, recursive zk proof verifier etc.
 
 ## Circuit Verifier
 
-Verify zkp'sproof by (another) zk prover circuit. Aka. aggregation prove.
+Verify zkp'sproof by (another) zk prover circuit. Aka. aggregation/recursive prove.
 
 ### Groth16 Circuit Verifier
 * By snarkpack
