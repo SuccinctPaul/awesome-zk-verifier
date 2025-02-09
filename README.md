@@ -1,7 +1,9 @@
 <div align="center">
   <h1 align="center">awesome zk verifier</h1>
 
-A curated list of awesome things related to zero knowledge proof verifiers. Inculding: onchain zk proof verifier, recursive zk proof verifier etc.
+A curated list of awesome things related to zero knowledge proof verifiers. 
+
+Inculding: onchain zk proof verifier, recursive zk proof verifier etc.
 
   <p align="center">
     <a href="https://github.com/sindresorhus/awesome">
