@@ -43,6 +43,7 @@ Inculding: onchain zk proof verifier, recursive zk proof verifier etc.
     - [Groth16 Wasm Verifier](#groth16-wasm-verifier)
     - [Fflonk Verifier](#fflonk-verifier)
     - [Snarkjs Verifier](#snarkjs-verifier)
+  - [Related Awesome Lists](#related-awesome-lists)
 
 ## Circuit Verifier
 
@@ -141,6 +142,7 @@ Verify zkp proof in Solidity Contract
   Rust Version:
   * https://github.com/HorizenLabs/zksync-era-verifier
 * https://github.com/succinctlabs/sp1-contracts/blob/main/contracts/src/v3.0.0-rc1/PlonkVerifier.sol
+* https://github.com/zkVerify/ultraplonk_verifier
 
 #### Halo2 Solidity Verifier
 * https://github.com/privacy-scaling-explorations/halo2-solidity-verifier
@@ -212,7 +214,7 @@ Verify zkp proof in Move Contract
 
 
 ## Other Verifiers
-Following contains verifier by other crypto implement.
+Following contains verifier by other crypto-lib implement.
 * eg: CryptoA's verified by cryptoB, aka `CryptoA CryptoB Verifier`
 
 ### Gnark Arkworks Verifier
@@ -231,3 +233,8 @@ Following contains verifier by other crypto implement.
 
 ### Snarkjs Verifier
 * https://github.com/DoraFactory/snarkjs-bellman-adapter
+
+
+## Related Awesome Lists
+
+https://github.com/seresistvanandras/awesome-evm-proof-verifiers
