@@ -1,11 +1,28 @@
-# awesome zk verifier
-> [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-> A curated list of awesome things related to zero knowledge proof verifiers.
+<div align="center">
+  <h1 align="center">awesome zk verifier</h1>
+
+A curated list of awesome things related to zero knowledge proof verifiers. 
+
+Inculding: onchain zk proof verifier, recursive zk proof verifier etc.
+
+  <p align="center">
+    <a href="https://github.com/sindresorhus/awesome">
+      <img alt="awesome list badge" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg">
+    </a>
+    <a href="https://github.com/SuccinctPaul/awesome-zk-verifier/graphs/contributors">
+      <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/SuccinctPaul/awesome-zk-verifier">
+    </a>
+    <a href="http://makeapullrequest.com">
+      <img alt="pull requests welcome badge" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat">
+    </a>
+  </p>
+
+</div>
+
 
 ## Contents
 
 - [Awesome zk verifier](#awesome-zk-verifier)
-  - [Verifier Layer](#verifier-layer)
   - [Circuit Verifier](#circuit-verifier)
     - [Groth16 Circuit Verifier](#Groth16-Circuit-Verifier)
     - [Halo2 Circuit Verifier](#Halo2-Circuit-Verifier)
@@ -14,58 +31,23 @@
     - [Boojum Circuit Verifier](#Boojum-Circuit-Verifier)
     - [Winterfell Circuit Verifier](#winterfell-circuit-verifier)
     - [zkVM Circuit Verifier](#zkVM-Circuit-Verifier)
-      - [KZG zkVM Circuit Verifier](#KZG-zkVM-Circuit-Verifier)
-      - [Fflonk zkVM Circuit Verifier](#Fflonk-zkVM-Circuit-Verifier)
-      - [Plnoky2 zkVM Circuit Verifier](#Plnoky2-zkVM-Circuit-Verifier)
-      - [Platinum zkVM Circuit Verifier](#platinum-zkvm-circuit-verifier)
   - [Contract Verifier](#Contract-Verifier)
     - [Bitcoin Script Verifier](#bitcoin-script-verifier)
-      - [Groth16 Bitcoin Script Verifier](#groth16-bitcoin-script-verifier)
-      - [Fflonk Bitcoin Script Verifier](#Fflonk-bitcoin-script-verifier)
-      - [Circle Stark Bitcoin Script Verifier](#circle-stark-bitcoin-script-verifier)
     - [Solidity Verifier](#solidity-verifier)
-      - [Groth16 Solidity Verifier](#groth16-solidity-verifier)
-      - [whir Solidity Verifier](#whir-solidity-verifier)
-      - [Fflonk Solidity Verifier](#fflonk-solidity-verifier)
-      - [Plonk Solidity Verifier](#Plonk-solidity-verifier)
-      - [Halo2 Solidity Verifier](#Halo2-solidity-verifier)
-      - [Plonky2 Solidity Verifier](#Plonky2-solidity-verifier)
-      - [Marlin Solidity Verifier](#marlin-solidity-verifier)
-      - [Nova Solidity Verifier](#Nova-solidity-verifier)
-      - [gm17 Solidity Verifier](#gm17-solidity-verifier)
-      - [Mina Solidity Verifier](#Mina-solidity-verifier)
-      - [Placeholder Solidity Verifier](#Placeholder-solidity-verifier)
-      - [Sp1 Solidity Verifier](#Sp1-solidity-verifier)
     - [Cairo Verifier](#cairo-verifier)
-      - [Stark Cairo Verifier](#Stark-Cairo-verifier)
-      - [Snark Cairo Verifier](#Snark-Cairo-verifier)
-      - [Circom Cairo Verifier](#Circom-Cairo-verifier)
-      - [Placeholder Cairo Verifier](#Placeholder-Cairo-verifier)
     - [Solona Verifier](#solona-verifier)
-      - [Groth16 Solona Verifier](#groth16-Solona-verifier)
     - [Move Verifier](#move-verifier)
-      - [Groth16 Move Verifier](#groth16-Move-verifier)
-      - [Halo2 Move Verifier](#groth16-Halo2-verifier)
     - [Cosmwasm Verifier](#cosmwasm-verifier)
-      - [Groth16 Cosmwasm Verifier](#groth16-cosmwasm-verifier)
-      - [Plonk Cosmwasm Verifier](#plonk-cosmwasm-verifier)
   - [Other Verifiers](#other-verifiers)
     - [Gnark Arkworks Verifier](#gnark-arkworks-verifier)
     - [Groth16 Wasm Verifier](#groth16-wasm-verifier)
     - [Fflonk Verifier](#fflonk-verifier)
     - [Snarkjs Verifier](#snarkjs-verifier)
-
-## Verifier Layer
-### Aligened Layer
-* https://github.com/yetanotherco/aligned_layer
-### zkVerify
-* https://github.com/HorizenLabs/zkVerify
-### hyle
-* https://github.com/Hyle-org/hyle
+  - [Related Awesome Lists](#related-awesome-lists)
 
 ## Circuit Verifier
 
-Verify zkp'sproof by (another) zk prover circuit. Aka. aggregation prove.
+Verify zkp'sproof by (another) zk prover circuit. Aka. aggregation/recursive prove.
 
 ### Groth16 Circuit Verifier
 * By snarkpack
@@ -160,6 +142,7 @@ Verify zkp proof in Solidity Contract
   Rust Version:
   * https://github.com/HorizenLabs/zksync-era-verifier
 * https://github.com/succinctlabs/sp1-contracts/blob/main/contracts/src/v3.0.0-rc1/PlonkVerifier.sol
+* https://github.com/zkVerify/ultraplonk_verifier
 
 #### Halo2 Solidity Verifier
 * https://github.com/privacy-scaling-explorations/halo2-solidity-verifier
@@ -231,7 +214,7 @@ Verify zkp proof in Move Contract
 
 
 ## Other Verifiers
-Following contains verifier by other crypto implement.
+Following contains verifier by other crypto-lib implement.
 * eg: CryptoA's verified by cryptoB, aka `CryptoA CryptoB Verifier`
 
 ### Gnark Arkworks Verifier
@@ -250,3 +233,8 @@ Following contains verifier by other crypto implement.
 
 ### Snarkjs Verifier
 * https://github.com/DoraFactory/snarkjs-bellman-adapter
+
+
+## Related Awesome Lists
+
+https://github.com/seresistvanandras/awesome-evm-proof-verifiers
