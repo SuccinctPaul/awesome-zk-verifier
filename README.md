@@ -1,11 +1,26 @@
-# awesome zk verifier
-> [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-> A curated list of awesome things related to zero knowledge proof verifiers.
+<div align="center">
+  <h1 align="center">awesome zk verifier</h1>
+
+A curated list of awesome things related to zero knowledge proof verifiers. Inculding: onchain zk proof verifier, recursive zk proof verifier etc.
+
+  <p align="center">
+    <a href="https://github.com/sindresorhus/awesome">
+      <img alt="awesome list badge" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg">
+    </a>
+    <a href="https://github.com/SuccinctPaul/awesome-zk-verifier/graphs/contributors">
+      <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/SuccinctPaul/awesome-zk-verifier">
+    </a>
+    <a href="http://makeapullrequest.com">
+      <img alt="pull requests welcome badge" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat">
+    </a>
+  </p>
+
+</div>
+
 
 ## Contents
 
 - [Awesome zk verifier](#awesome-zk-verifier)
-  - [Verifier Layer](#verifier-layer)
   - [Circuit Verifier](#circuit-verifier)
     - [Groth16 Circuit Verifier](#Groth16-Circuit-Verifier)
     - [Halo2 Circuit Verifier](#Halo2-Circuit-Verifier)
@@ -54,14 +69,6 @@
     - [Groth16 Wasm Verifier](#groth16-wasm-verifier)
     - [Fflonk Verifier](#fflonk-verifier)
     - [Snarkjs Verifier](#snarkjs-verifier)
-
-## Verifier Layer
-### Aligened Layer
-* https://github.com/yetanotherco/aligned_layer
-### zkVerify
-* https://github.com/HorizenLabs/zkVerify
-### hyle
-* https://github.com/Hyle-org/hyle
 
 ## Circuit Verifier
 
