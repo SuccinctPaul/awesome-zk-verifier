@@ -73,7 +73,9 @@ Verify zkp'sproof by (another) zk prover circuit. Aka. aggregation/recursive pro
   * https://github.com/Omniverse-Web3-Labs/fri-kzg-verifier
   * https://github.com/DoHoonKim8/stark-verifier
   * https://github.com/qope/another-circuit
-
+* by groth16
+  * https://github.com/Electron-Labs/plonky2-groth16-verifier
+  
 ### Plonky3 Circuit Verifier
 * By gnark
   * https://github.com/succinctlabs/sp1/tree/main/recursion/gnark-ffi/go/sp1
@@ -192,6 +194,7 @@ Verify zkp proof in Cairo Contract
 Verify zkp proof in Solona Contract
 
 #### Groth16 Solona Verifier
+* https://github.com/Lightprotocol/groth16-solana
 * https://github.com/zkLinkProtocol/groth16-sol-verifier
 * https://github.com/gnosed/solana_groth16_verifier
 
