@@ -149,6 +149,8 @@ Verify zkp proof in Solidity Contract
 #### Halo2 Solidity Verifier
 * https://github.com/privacy-scaling-explorations/halo2-solidity-verifier
 * https://github.com/akinovak/instance-verifier
+* https://github.com/0xfuturistic/plonkish-solidity
+
 
 #### Plonky2 Solidity Verifier
 * https://github.com/polymerdao/plonky2-solidity-verifier
